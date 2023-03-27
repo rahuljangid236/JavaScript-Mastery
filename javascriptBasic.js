@@ -48,3 +48,4 @@ console.log(typeof null);
 console.log(Number.MAX_SAFE_INTEGER);
 let bigInt = BigInt(123154646544615646516156161);
 console.log(typeof bigInt);
+console.log("Hello World");
