@@ -42,7 +42,19 @@
 
 // For of Loop
 let fruits = ["apple", "mango", "grapes"];
+// let fruits2 = [];
+// for (let fruit of fruits) {
+//   fruits2.push(fruit.toUpperCase());
+// }
+// console.log(fruits2);
 
-for (let fruit of fruits) {
-  console.log(fruit);
+// For in Loop
+for (let index in fruits) {
+  console.log(fruits[index]);
 }
+
+// array destructuring
+const myArray = ["value1", "value2", "value3", "value4"];
+let [myvar1, myvar2, ...myNewArray] = myArray;
+console.log(myvar2);
+console.log(myNewArray);
