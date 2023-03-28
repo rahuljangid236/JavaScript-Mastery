@@ -29,13 +29,13 @@ let fruits = ["apple", "mango", "grapes"];
 // console.log(fruits);
 
 // how to clone array
-let array1 = ["item1", "item2"];
-let array2 = array1;
-console.log(array1 === array2);
+// let array1 = ["item1", "item2"];
+// let array2 = array1;
+// console.log(array1 === array2);
 // clone using slice method
-let array3 = array1.slice(0);
-console.log(array3);
+// let array3 = array1.slice(0);
+// console.log(array3);
 
 // clone using concatenate two array
-let array4 = [].concat(array1);
-console.log(array4);
+// let array4 = [].concat(array1);
+// console.log(array4);
