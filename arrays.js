@@ -3,7 +3,7 @@
 // ordered collection of items
 
 // how to create arrays
-let fruits = ["apple", "mango", "grapes"];
+// let fruits = ["apple", "mango", "grapes"];
 // console.log(fruits);
 // fruits[1] = "banana";
 // console.log(fruits);
@@ -39,3 +39,10 @@ let fruits = ["apple", "mango", "grapes"];
 // clone using concatenate two array
 // let array4 = [].concat(array1);
 // console.log(array4);
+
+// For of Loop
+let fruits = ["apple", "mango", "grapes"];
+
+for (let fruit of fruits) {
+  console.log(fruit);
+}
