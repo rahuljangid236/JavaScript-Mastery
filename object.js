@@ -7,5 +7,29 @@
 const person = {
   name: "Rahul",
   age: 23,
+  hobbies: ["guitar", "sleeping", "listening music"],
 };
-console.log(person);
+
+// how to access data from object
+// console.log(person.name);
+
+// how to add key value pair in objects
+// person.gender = "male";
+// console.log(person);
+// console.log(person["name"]);
+
+// const key = "email";
+// person[key] = "rahuljangid@gmail.com";
+// console.log(person);
+
+// how to iterate object
+// for (let key in person) {
+//   console.log(`${key} : ${person[key]}`);
+// }
+
+const obj = Object.keys(person);
+console.log(obj);
+
+for (let key of Object.keys(person)) {
+  console.log(key);
+}
