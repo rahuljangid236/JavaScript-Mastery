@@ -27,12 +27,12 @@ const person = {
 //   console.log(`${key} : ${person[key]}`);
 // }
 
-const obj = Object.keys(person);
-console.log(obj);
+// const obj = Object.keys(person);
+// console.log(obj);
 
-for (let key of Object.keys(person)) {
-  console.log(key);
-}
+// for (let key of Object.keys(person)) {
+//   console.log(key);
+// }
 
 // Computed Properties
 
@@ -43,4 +43,15 @@ const obj1 = {
   [key1]: "value1",
   [key2]: "value2",
 };
-console.log(obj1);
+// console.log(obj1);
+
+// Spread Operator in obj
+
+const obj2 = {
+  key1: "unique",
+  key3: "value3",
+  key4: "value4",
+};
+
+const newObject = { ...obj1, ...obj2 };
+console.log(newObject);
