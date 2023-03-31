@@ -33,3 +33,14 @@ console.log(obj);
 for (let key of Object.keys(person)) {
   console.log(key);
 }
+
+// Computed Properties
+
+const key1 = "objkey1";
+const key2 = "objkey2";
+
+const obj1 = {
+  [key1]: "value1",
+  [key2]: "value2",
+};
+console.log(obj1);
