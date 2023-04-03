@@ -52,8 +52,20 @@
 // console.log(evenNumbers);
 
 // reduce method
-const numbers = [1,2,3,4,5];
-const sum = numbers.reduce((accumulator,currentValue)=>{
-    return accumulator+currentValue;
-})
-console.log(sum);
+// const numbers = [1,2,3,4,5];
+// const sum = numbers.reduce((accumulator,currentValue)=>{
+//     return accumulator+currentValue;
+// })
+// console.log(sum);
+
+const userCart = [
+  { productId: 1, productName: "Mobile", price: 12000 },
+  { productId: 2, productName: "Laptop", price: 22000 },
+  { productId: 3, productName: "TV", price: 10000 },
+];
+
+const totalPrice = userCart.reduce((totalPrice, currentProdPrice) => {
+  return totalPrice + currentProdPrice.price;
+}, 0);
+
+console.log(totalPrice);
