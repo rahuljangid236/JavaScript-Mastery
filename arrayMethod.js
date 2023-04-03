@@ -72,12 +72,32 @@
 
 // Sort method
 
-const userName = ["Harshit", "Rahul", "Subham", "Kamlesh", "Teena", "Aman"];
-userName.sort();
-console.log(userName);
+// const userName = ["Harshit", "Rahul", "Subham", "Kamlesh", "Teena", "Aman"];
+// userName.sort();
+// console.log(userName);
 
-const numbers = [5, 9, 1200, 400, 3000];
-numbers.sort((a, b) => {
-  return a - b;
-});
-console.log(numbers);
+// const numbers = [5, 9, 1200, 400, 3000];
+// numbers.sort((a, b) => {
+//   return a - b;
+// });
+// console.log(numbers);
+
+// 1200,410
+// a-b --> 790
+// a-b --> positive(greater than 0) ---> b,a
+
+// a-b--> Negative-->a,b
+// 5,9--> -4
+
+// const userCart = [
+//   { productId: 1, productName: "Mobile", price: 12000 },
+//   { productId: 2, productName: "Laptop", price: 22000 },
+//   { productId: 3, productName: "TV", price: 10000 },
+// ];
+
+// userCart.sort((a, b) => {
+//   return a.price - b.price;
+// });
+// console.log(userCart);
+
+// Find method
