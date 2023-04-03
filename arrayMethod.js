@@ -40,4 +40,15 @@
 // console.log(userNames);
 
 // Filter method
-const numbers = [3, 4, 6, 1, 8];
+// const numbers = [3, 4, 6, 1, 8];
+
+// const isEven = function (number) {
+//   return number % 2 === 0;
+// };
+
+// const evenNumbers = numbers.filter((number) => {
+//   return number % 2 === 0;
+// });
+// console.log(evenNumbers);
+
+// reduce method
