@@ -58,14 +58,26 @@
 // })
 // console.log(sum);
 
-const userCart = [
-  { productId: 1, productName: "Mobile", price: 12000 },
-  { productId: 2, productName: "Laptop", price: 22000 },
-  { productId: 3, productName: "TV", price: 10000 },
-];
+// const userCart = [
+//   { productId: 1, productName: "Mobile", price: 12000 },
+//   { productId: 2, productName: "Laptop", price: 22000 },
+//   { productId: 3, productName: "TV", price: 10000 },
+// ];
 
-const totalPrice = userCart.reduce((totalPrice, currentProdPrice) => {
-  return totalPrice + currentProdPrice.price;
-}, 0);
+// const totalPrice = userCart.reduce((totalPrice, currentProdPrice) => {
+//   return totalPrice + currentProdPrice.price;
+// }, 0);
 
-console.log(totalPrice);
+// console.log(totalPrice);
+
+// Sort method
+
+const userName = ["Harshit", "Rahul", "Subham", "Kamlesh", "Teena", "Aman"];
+userName.sort();
+console.log(userName);
+
+const numbers = [5, 9, 1200, 400, 3000];
+numbers.sort((a, b) => {
+  return a - b;
+});
+console.log(numbers);
