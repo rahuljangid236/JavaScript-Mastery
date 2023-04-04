@@ -167,6 +167,11 @@
 // const myArray = new Array(10).fill(-1);
 // console.log(myArray);
 
-const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
-myArray.fill(0, 2, 5);
+// const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
+// myArray.fill(0, 2, 5);
+// console.log(myArray);
+
+// splice method
+const myArray = ["item1", "item2", "item3"];
+myArray.splice(1, 1, "item4");
 console.log(myArray);
