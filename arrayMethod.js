@@ -101,3 +101,45 @@
 // console.log(userCart);
 
 // Find method
+// const myArray = ["Horse", "Dog", "cat"];
+
+// const ans = myArray.find((string) => {
+//   return string.length === 3;
+// });
+
+// console.log(ans);
+
+// const users = [
+//   { userId: 1, userName: "Rahul" },
+//   { userId: 2, userName: "Kamlesh" },
+//   { userId: 3, userName: "Subham" },
+//   { userId: 4, userName: "Teena" },
+//   { userId: 5, userName: "Poonam" },
+//   { userId: 6, userName: "Johnu" },
+//   { userId: 7, userName: "Prahlad" },
+// ];
+
+// const myUser = users.find((user) => {
+//   return user.userId === 5;
+// });
+
+// console.log(myUser);
+
+// Every Method
+// const numbers = [2, 4, 6, 8, 10];
+
+// const ans = numbers.every((number) => {
+//   return number % 2 === 0;
+// });
+// console.log(ans);
+
+const userCart = [
+  { productId: 1, productName: "Mobile", price: 12000 },
+  { productId: 2, productName: "Laptop", price: 22000 },
+  { productId: 3, productName: "TV", price: 10000 },
+];
+
+const ans = userCart.every((cartItem) => {
+  return cartItem.price < 25000;
+});
+console.log(ans);
