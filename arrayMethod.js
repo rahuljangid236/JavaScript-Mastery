@@ -133,13 +133,40 @@
 // });
 // console.log(ans);
 
-const userCart = [
-  { productId: 1, productName: "Mobile", price: 12000 },
-  { productId: 2, productName: "Laptop", price: 22000 },
-  { productId: 3, productName: "TV", price: 10000 },
-];
+// const userCart = [
+//   { productId: 1, productName: "Mobile", price: 12000 },
+//   { productId: 2, productName: "Laptop", price: 22000 },
+//   { productId: 3, productName: "TV", price: 10000 },
+// ];
 
-const ans = userCart.every((cartItem) => {
-  return cartItem.price < 25000;
-});
-console.log(ans);
+// const ans = userCart.every((cartItem) => {
+//   return cartItem.price < 25000;
+// });
+// console.log(ans);
+
+// Some method
+// const numbers = [2, 4, 6, 1, 10];
+// const ans = numbers.some((number) => {
+//   return number % 2 === 0;
+// });
+// console.log(ans);
+
+// const userCart = [
+//   { productId: 1, productName: "Mobile", price: 12000 },
+//   { productId: 2, productName: "Laptop", price: 22000 },
+//   { productId: 3, productName: "TV", price: 10000 },
+// ];
+
+// const ans = userCart.some((cartItem) => {
+//   return cartItem.price > 15000;
+// });
+// console.log(ans);
+
+// Fill method
+
+// const myArray = new Array(10).fill(-1);
+// console.log(myArray);
+
+const myArray = [1, 2, 3, 4, 5, 6, 7, 8];
+myArray.fill(0, 2, 5);
+console.log(myArray);
