@@ -8,4 +8,6 @@
 // console.log(link.getAttribute("href"));
 
 const rootNode = document.getRootNode();
-console.log(rootNode);
+const htmlElementNode = rootNode.childNodes[0];
+
+console.log(htmlElementNode.childNodes);
