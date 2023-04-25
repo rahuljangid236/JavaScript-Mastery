@@ -7,7 +7,7 @@
 // link.setAttribute("href", "#link");
 // console.log(link.getAttribute("href"));
 
-const rootNode = document.getRootNode();
-const htmlElementNode = rootNode.childNodes[0];
+// const rootNode = document.getRootNode();
+// const htmlElementNode = rootNode.childNodes[0];
 
-console.log(htmlElementNode.childNodes);
+console.log(htmlElementNode.nextSibling);
