@@ -10,4 +10,4 @@
 // const rootNode = document.getRootNode();
 // const htmlElementNode = rootNode.childNodes[0];
 
-// console.log(htmlElementNode.nextSibling);
+console.log(htmlElementNode.nextSibling);
